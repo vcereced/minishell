@@ -19,13 +19,13 @@
 </p>
 
 ## &#x1F4CC; Index 
-- [📌 Index](#-index)
-- [✨ What is minishell?](#-what-is-minishell)
-- [🕹 Features](#-features)
-- [🕹 Built-ins](#-built-ins)
-- [🛠 Algorithm](#-algorithm)
-- [💻 Usage](#-usage)
-- [📖 Examples](#-examples)
+- [Index](#-index)
+- [What is minishell?](#-what-is-minishell)
+- [Features](#-features)
+- [Built-ins](#-built-ins)
+- [Algorithm](#-algorithm)
+- [Usage](#-usage)
+- [Examples](#-examples)
 
 ## &#x2728; What is minishell?
 
