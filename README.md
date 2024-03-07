@@ -4,8 +4,8 @@
   </a>
 
   <p align="center">
-    The least amount of moves to sorting two stacks<br>
-    Project push_swap of 42 school
+    As beautiful as a shell<br>
+    Project minishell of 42 school
     <br />
 	</p>
 </p>
@@ -19,31 +19,43 @@
 </p>
 
 ## &#x1F4CC; Index 
-- [What is push\_swap?](#-what-is-push_swap)
-- [Movements](#-movements)
-- [Algorithm](#-algorithm)
-- [Usage](#-usage)
-- [Examples](#-examples)
+- [📌 Index](#-index)
+- [✨ What is minishell?](#-what-is-minishell)
+- [🕹 Features](#-features)
+- [🕹 Built-ins](#-built-ins)
+- [🛠 Algorithm](#-algorithm)
+- [💻 Usage](#-usage)
+- [📖 Examples](#-examples)
 
-## &#x2728; What is push_swap?
+## &#x2728; What is minishell?
 
-This project requires to sort data in a stack, using a limited set of instructions, and with the fewest possible operations. To succeed, you will sort 100 numbers with maximun 700 movements and 500 numbers in 5000.
+This project is about creating a own little shell. Capable of parsing a prompt and launching executables with arguments, along with a few built-in functions.<br />
+It's two-person project was done by `vcereced` and `dgarizad` students of 42..
 			
-## 🕹 Movements
+
+      IMAgeng minishel
+## 🕹 Features
 
 | | |
 |---|---|
-|`sa`| swap the first 2 elements at the top of stack a.|
-|`sb`|  swap the first 2 elements at the top of stack b.|
-|`ss`| sa and sb at the same time.|
-|`pa`| take the first element at the top of b and put it at the top of a. |
-|`pb`| take the first element at the top of a and put it at the top of b. |
-|`ra`| shift up all elements of stack a by 1. |
-|`rb`| shift up all elements of stack b by 1. |
-|`rr`| ra and rb at the same time. |
-|`rra`| shift down all elements of stack a by 1. |
-|`rrb`|shift down all elements of stack b by 1. |
-|`rrr`|rra and rrb at the same time. |
+|`/bin/ls or ls`| run on absolute, relative or environment PATH.|
+|`'  "`|  arguments or options with `'` and `"` work the same as bash. |
+|`> >> < \| `| Redirections.|
+|`$HOME`| Environment variables. |
+|`$?`| return exit status code. |
+|`Ctrl-C Ctrl-D`| Handling signals. |
+|`&& \|\| `| Decision tree. |
+|`*`| Wildcards. |
+
+## 🕹 Built-ins
+
+| | |
+|---|---|
+|`echo`| `pwd` |
+|`cd`|`env`|
+|`export`| `unset`|
+|`exit`| |
+
 
 ## &#x1F6E0; Algorithm
 

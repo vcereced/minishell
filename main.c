@@ -6,7 +6,7 @@
 /*   By: vcereced <vcereced@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 16:45:55 by dgarizad          #+#    #+#             */
-/*   Updated: 2023/06/13 19:32:07 by vcereced         ###   ########.fr       */
+/*   Updated: 2024/03/07 11:34:36 by vcereced         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	sigint_handler(int sig)
 	if (g_data.flags.father == 0)
 	{
 		rl_on_new_line();
-		rl_replace_line("", 0);
+		//rl_replace_line("", 0);
 		printf("\n\033[F\033[K"PINK"mi"YELLOW"ni"BLUE"hell🐢"RST_CLR"$>\n");
 		rl_redisplay();
 	}
@@ -34,7 +34,7 @@ void	sigint_handler(int sig)
 	{
 		write(1, "\n", 1);
 		rl_on_new_line();
-		rl_replace_line("", 0);
+		//rl_replace_line("", 0);
 	}
 	waitpid(g_data.child_pid, &g_data.child_status, WUNTRACED);
 	if (WIFEXITED(g_data.child_status))
