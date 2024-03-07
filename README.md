@@ -32,8 +32,9 @@
 This project is about creating a own little shell. Capable of parsing a prompt and launching executables with arguments, along with a few built-in functions.<br />
 It's two-person project was done by `vcereced` and `dgarizad` students of 42..
 			
+<img width="1010" alt="Screen Shot 2024-03-07 at 12 03 04 PM" src="https://github.com/vcereced/minishell/assets/120835200/b3accf9b-e6ff-447f-8bf8-93baa3402ba3">
 
-      IMAgeng minishel
+     
 ## 🕹 Features
 
 | | |
