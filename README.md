@@ -60,24 +60,26 @@ It's two-person project was done by `vcereced` and `dgarizad` students of 42..
 
 ## &#x1F6E0; Algorithm
 
-Schema of logic:
+Schema of global logic without decision tree:
 
+<img width="1083" alt="Screen Shot 2024-03-07 at 12 54 56 PM" src="https://github.com/vcereced/minishell/assets/120835200/0076cd0f-1913-4aa1-a34c-54b25db59522">
 
-<img src="https://github.com/vcereced/push_swap/assets/120835200/8eacd016-1c5c-4ab6-a111-9ebf4c27ce3d" alt="push" width="600">
+Parsing logic:
 
+<img width="400" alt="Screen Shot 2024-03-07 at 12 37 29 PM" src="https://github.com/vcereced/minishell/assets/120835200/fdb78bb0-cb6e-4428-9776-2d240cf6616b">
 
-<br /><br />
-Visualization should be:
+Planner logic:
 
+<img width="600" alt="Screen Shot 2024-03-07 at 12 43 30 PM" src="https://github.com/vcereced/minishell/assets/120835200/b62fdc1d-f211-43c0-86b7-5a7a82cf0023">
 
-![Screen-Recording-2024-03-06-at-8 50 31-PM-ezgif com-resize](https://github.com/vcereced/push_swap/assets/120835200/a3e789b9-3a6f-49b6-ac31-58482bc2d87c)
+Program logic:
+
+<img width="600" alt="Screen Shot 2024-03-07 at 12 50 09 PM" src="https://github.com/vcereced/minishell/assets/120835200/ba77b088-cf5f-4ad0-9adf-05fbe4215a28">
 
 
 ## &#x1F4BB; Usage
 
 `make` to compile.
-
-`exe` to compile and run a example of unsorted numbers.
 
 `make clean` remove .o files.
 
@@ -88,20 +90,16 @@ Visualization should be:
 Execute this command in the terminal.
 
 ```bash
-nums="9 8 7 6 5 4" && ./push_swap $nums 
+./minishell
 ```
-Output should be:
+
+Let's try some promps like in a shell:
 
 ```bash
-rra
-pb
-rra
-pb
-rra
-pb
-sa
-rra
-pa
-pa
-pa
+echo "hello world" && cat
+```
+
+Output should be:
+```bash
+hello world
 ```
