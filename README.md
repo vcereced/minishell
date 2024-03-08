@@ -18,15 +18,6 @@
   
 </p>
 
-## &#x1F4CC; Index 
-- [Index](#-index)
-- [What is minishell?](#-what-is-minishell)
-- [Features](#-features)
-- [Built-ins](#-built-ins)
-- [Algorithm](#-algorithm)
-- [Usage](#-usage)
-- [Examples](#-examples)
-
 ## &#x2728; What is minishell?
 
 This project is about creating a own little shell. Capable of parsing a prompt and launching executables with arguments, along with a few built-in functions.<br />
